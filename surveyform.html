@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="shortcut icon" href="birthday.jfif" type="image/x-icon">
+</head>
+<body>
+    <h1>Survey Form:</h1>
+    <hr>
+    <form action="assignment1.html">
+        <h2>Customer name</h2>
+        <label for="firstname">Enter your Firstname:</label><br>
+        <input type="text" name="firstname" id="firstname" size="30px">
+        <br>
+        <label for="lastname">Enter your Lastname:</label><br>
+        <input type="text" name="lastname" id="lastname" size="30px">
+        <h2>Customer Address</h2>
+        <label for="street">Enter street</label><br>
+        <input type="text" name="street" id="street" size="'50px"><br>
+        <label for="city">Select city</label><br>
+        <select name="city" id="city">
+            <option value="Anatapur">Anatapur</option>
+            <option value="Amalapuram">Amalapuram</option>
+            <option value="Basara">Basara</option>
+            <option value="Guntur">Guntur</option>
+        </select><br>
+        <label for="state">Select state</label><br>
+        <input list="states" name="states">
+        <datalist id="states">
+            <option value="AP">AP</option>
+            <option value="Telagana">Telagana</option>
+            <option value="TamilNadu">Tamilnadu</option>
+        </datalist>
+        <br>
+        <h3>Personal Details</h3>
+        <h5>Gender</h5>
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label><br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+        
+        <br>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
